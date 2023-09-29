@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css</title>
+    <style>
+      body {
+        background-color: antiquewhite;
+      }
+      /* h1 predstavlja css selektor, sto je zapravo pravilo pomocu kojeg pristupamo html elementuza koji zelimo da definisemo stilove */
+      h1 {
+        /* color predstavlja css property (svojstvo) */
+        color: red;
+      }
+      p {
+        /* font-size: 16px; standardna velicina slova je 16 px */
+        font-size: 18px;
+        text-indent: 40px;
+        /* text-align: left; defaultna vrednost */
+        text-align: right;
+        text-align: center; /* primenice se poslednje definisano svojstvo */
+        text-align: justify;
+        text-align-last: right;
+        text-transform: uppercase;
+        /* text transform uppercase */
+        /* text-transform: capitalize; */
+        text-transform: none;
+        text-transform: lowercase;
+        color: blue;
+      }
+      ul {
+        list-style-position: inside;
+      }
+      .prvi {
+        background-color: aquamarine;
+        width: 400px;
+        height: 400px;
+      }
+      #naslov {
+        color: palevioletred;
+      }
+      .naslov {
+        color: rgb(49, 8, 87);
+      }
+      /* id ima prioritet u odnosu na klasu */
+      /* obicno cemo koristiti id ako zelimo da definisemo neki jedinstven element.*/
+    </style>
+  </head>
+  <body>
+    <!-- klasi prvi pristupamo sa prefiksom . u css u -->
+    <div class="prvi">
+      <h1>danas radimo css, cascading style sheets</h1>
+      <!-- jezik za definisanje stilova na nasoj stranici -->
+      <!-- id u naslov pristupamo sa prefiksom # u css u -->
+      <h2 id="naslov" class="naslov">
+        css mozemo primeniti na nekoliko nacina
+      </h2>
+      <ul>
+        <li style="color: blue; text-align: center">Inline stilovi</li>
+        <li>Stilovi definisani unutar head taga</li>
+        <li>Eksterni stilovi</li>
+      </ul>
+    </div>
+    <div>
+      <h1>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus
+        fuga, excepturi est nemo assumenda sed, recusandae aspernatur libero rem
+        temporibus repudiandae pariatur minima consequatur facere natus sapiente
+        cumque ab ex!
+      </h1>
+      <p style="color: blueviolet">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+        pariatur soluta animi similique assumenda! Voluptate, blanditiis debitis
+        maiores pariatur odio atque ex, laudantium voluptatum quisquam nemo esse
+        illum aut! Ipsa! Lorem, ipsum dolor sit amet consectetur adipisicing
+        elit. Fuga esse veniam adipisci sed asperiores unde dicta magnam culpa
+        provident, assumenda pariatur corrupti id, perferendis perspiciatis
+        voluptates molestiae libero totam ipsa nesciunt dolorem architecto. Ea
+        aliquam quia laboriosam modi optio cupiditate facere veritatis culpa
+        maxime expedita perferendis eius, commodi necessitatibus numquam?
+      </p>
+    </div>
+    <title>css</title>
+  </body>
+</html>

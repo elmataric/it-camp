@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.first {
+  background-image: url(https://4kwallpapers.com/images/wallpapers/dark-background-abstract-background-network-3d-background-2560x2560-8324.png);
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
+  /* background-size: contain;  razvlaci se fotografija do momenta dok ne stigne do prve ivice*/
+  /* background-size: cover; razvlaci se fotografija kako bi prekrila ceo kontejner, gubi se deo fotografije */
+  background-size: 200px 300px;
+  background-size: 100% 100%;
+  overflow: auto;
+}
+/* background repeat, defaultna vrednost */
+
+.first h1,
+p {
+  color: white;
+}
+.first h1 {
+  text-align: center;
+}
+.first p {
+  line-height: 30px;
+  letter-spacing: 20px;
+}
+.first:nth-of-type(2) {
+  box-sizing: border-box;
+  padding: 15px;
+}

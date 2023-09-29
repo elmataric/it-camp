@@ -1,0 +1,45 @@
+body {
+  background-color: bisque;
+}
+
+.main {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(224, 153, 188);
+  /* border: 3px solid black; */
+  /* border: 3px dotted black; */
+  /* border: 3px double black; */
+  border: 3px solid black;
+  margin: 50px;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+
+  /* margin: 50px; margina u odnosu na sve cetiri strane  */
+  /* margin-top: 30px; margina u odnosu na gornji element  */
+  /* margin-right: 30px; margina u odnosu na desni stranu  */
+  /* margin-bottom: 30px; margina u odnosu na donji element  */
+  /* margin-left: 30px; margina u odnosu na levu stranu  */
+
+  margin: 50px 40px 30px 20px; /* top, right, bottom, left */
+  margin: 50px 20px; /* top i bottom, right i left */
+  margin: 50px 20px 35px; /* top, right i left, bottom */
+  /*  auto, podjednako udaljen element od leve i desne strane */
+  margin: 30px auto;
+
+  padding: 10px 25px;
+  /* border-radius: 10px; */
+  /* border-radius: 10px 5px 15px 0px; */
+  border-bottom-left-radius: 10px;
+}
+
+.div2 {
+  /* width: 500px; */
+  /* height: 500px; */
+  background-color: rgb(114, 186, 227);
+}
+
+.main p {
+  text-align: justify;
+}

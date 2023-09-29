@@ -1,0 +1,63 @@
+body {
+  background-color: antiquewhite;
+}
+.first {
+  height: 600px;
+  width: 400px;
+  background-color: rgba(128, 128, 128, 0.194);
+  border: 3px solid rgba(0, 0, 0, 0.02);
+  box-shadow: 5px 5px 10px darkgray, -7px -4px 4px darkgray;
+  text-size-adjust: 10px;
+  margin: 50px auto;
+  border-radius: 10px 10px;
+  /* overflow: visible; nista ne menja, defaultna vrednost */
+  /* overflow: hidden; sakriva se sadryaj koji prelazi parent element */
+  /* overflow: scroll; kreira skrol bar kako bismo mogli da vidimo visak teksta bez da on prelazi ivice */
+  /* overflow: auto; ako se javlja potreba za skrol barom, ako ne, ostaje isti */
+  /* display: block; */
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/* block level html element */
+/* od h1 do h6 svi naslovi su block level elementi */
+/* <p> */
+/* <div>, <main>, <article>, <section>, <header>, <footer> */
+/* <ol>, <ul>, <li> */
+
+/* inline html elementi */
+/* <input>, <a>, <span>, <button>, <textarea> */
+/* <img> je inline block element. to su eleementi koji dozvoljavaju definisanje sirine i visine 
+za razliku od inline elemenata */
+/* <img> */
+.img {
+  height: 200;
+  width: 400;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.second {
+  /* visibility: hidden; */
+}
+.first h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+h2 {
+  text-transform: capitalize;
+  margin: 20px;
+  text-align: justify;
+}
+p {
+  text-indent: 20px;
+  text-align: justify;
+  padding: 10px;
+  margin: 20px 10px 35px 10px;
+}
+body :hover {
+  background-color: rgba(235, 235, 235, 0.775);
+}
+/* :hover za promenu boje pozadine teksta u kontejneru kada misem predjemo preko teksta */
+.first img:hover {
+  content: url(https://im.indiatimes.in/content/2020/Oct/Untitled-design-1_5f9835ea3f1a0.jpg);
+}
