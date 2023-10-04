@@ -37,8 +37,13 @@ za razliku od inline elemenata */
   border-top-left-radius: 10px;
 }
 .second {
+  /* visibility: hidden sakriva element i prostor ostaje rezervisan za taj element */
   /* visibility: hidden; */
+  /* display none sakriva element i prostor moze biti iskoriscen narednim elementom */
+  display: none;
 }
+/* .first:nth-of-type(2)  display: none; */
+
 .first h1 {
   text-transform: uppercase;
   text-align: center;
