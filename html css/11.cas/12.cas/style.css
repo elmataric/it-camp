@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap");
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: antiquewhite;
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  background-color: blueviolet;
+  width: 500px;
+  height: 500px;
+  display: inline-block;
+}
+/* svaki p tag koji se nalazi unutar .main kontejnera */
+/* .main p */
+.second {
+  background-color: aquamarine;
+  width: 500px;
+  height: 500px;
+  display: inline-block;
+}
+.user {
+  color: red;
+  font-size: 50px;
+  /* margin-left: 230px; */
+}
+.icon {
+  text-align: center;
+}
+/* stilovi za p tag koji je child element */
+.main p {
+  color: blue;
+}
+.main > p {
+  color: rgb(132, 51, 51);
+}
+.main + p {
+  color: yellow;
+}
+a {
+  color: red;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 900px;
+}
+a:hover {
+  color: lightblue;
+  background-color: pink;
+}
+a:active {
+  color: black;
+}
+.second:active {
+  background-color: black;
+}
+a :visited {
+  color: gray;
+}
