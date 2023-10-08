@@ -1,0 +1,32 @@
+.box {
+  width: 150px;
+  height: 150px;
+  float: right;
+}
+
+.box1 {
+  background-color: aqua;
+  /* float: left; */
+}
+.box2 {
+  background-color: rgb(255, 0, 119);
+  /* float: left; */
+}
+.box3 {
+  background-color: rgb(4, 0, 255);
+  /* clear: both; */
+}
+.box4 {
+  background-color: rgb(221, 255, 0);
+  /* clear: both; */
+  /* ciscenje nastaje od onog elementa kome dodelimo clear both */
+}
+.box5 {
+  background-color: rgb(255, 77, 0);
+}
+.box6 {
+  background-color: rgb(0, 183, 255);
+}
+.box7 {
+  background-color: rgb(236, 157, 213);
+}

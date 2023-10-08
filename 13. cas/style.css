@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap");
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: aqua;
+  /* background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm422-073.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=ef48caa87980815f77343e682d6324ee); */
+  font-family: "Poppins", sans-serif;
+}
+.main {
+  /* rgba cini background prozirnim u odredjenoj meri, a zavisi od a parametra, 0-1*/
+  /* opacity cini ceo element sa sadrzajem prozirnim */
+  background-color: rgb(255, 235, 205, 0.5);
+  opacity: 0.5;
+  width: 500px;
+  height: 500px;
+}
+img {
+  width: 1000px;
+  height: 500px;
+  float: left;
+  margin-right: 15px;
+}
+.box1 {
+  width: 400px;
+  height: 400px;
+  background-color: rgba(138, 43, 226, 0.2);
+  float: left;
+}
+.box2 {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(172, 140, 202);
+  /* float: right; */
+  float: left;
+  /* kontejner kome nije orioisan float se podvlaci */
+}
+.drugi {
+  clear: both;
+  /* margin-top: 50px; */
+}
