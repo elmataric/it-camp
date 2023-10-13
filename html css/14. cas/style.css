@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+}
+.main {
+  width: 400px;
+  height: 400px;
+  /* width: 50vh;
+  height: 100vh; */
+  background-color: aqua;
+  border: 1px solid black;
+  float: left;
+  font-size: 20px;
+}
+.main:nth-of-type(even) {
+  background-color: antiquewhite;
+}
+.main p {
+  /* font-size: 2em; */
+  /* font-size: 2rem; */
+}
+.main:nth-last-of-type(1) {
+  background-color: blue;
+}
+/* apsolutne velicine */
+/* px - pixels */
+/* cm - centimeters */
+/* mm - milimeters */
+/* in - inches -njedan inc ima 96px */
+/* pt - points - jedan point je 72. deo inca */
+/* pc - picas - jedan picas je 12 pointa */
+
+/* relativne velicine */
+/* em - relativna u odnosu na font size elementa */
+/* rem - relativna na font size root elementa */
+/* VW - relativna 1% u odnosu na sirinu naseg ekrana */
+/* VH - relativna 1% na visinu naseg ekrana */
+/* vmin - relativna 1% u odnosu na manju dimenziju */
+/* vmax - relativna 1% u odnosu na vecu dimenziju */
+/* % - rlativan u odnosu na parent element */
+.mini {
+  background-color: blueviolet;
+  width: 80%;
+  height: 50%;
+}
