@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+header > h1 {
+  background-color: aqua;
+  text-align: center;
+  color: black;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 20vh;
+  border: 0.5rem solid green;
+  /* flex-direction: column; */
+  /* align-items: flex-end; */
+  justify-content: space-around;
+}
+.novi {
+  height: 300px;
+  display: flex;
+  border: solid black 0.5px;
+  justify-content: space-between;
+  /* justify-content: space-around; */
+  padding: 20px;
+}
+.child1 {
+  width: 200px;
+  height: 400px;
+  background-color: aqua;
+}
+.child2 {
+  width: 200px;
+  height: 400px;
+  background-color: blue;
+}
+.child3 {
+  width: 200px;
+  height: 400px;
+  background-color: blueviolet;
+}
+.sunce {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.suncee {
+  text-align: center;
+}
+.sunce1 {
+  text-align: center;
+  text-align: justify;
+  padding: 5px;
+}
+.stranica {
+  text-align: center;
+}

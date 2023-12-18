@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.parent {
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  background-color: rgb(132, 132, 240);
+}
+.child {
+  width: 50%;
+  height: 50%;
+  background-color: antiquewhite;
+  /* transition:  all 1s cubic-bezier(0, 0.7, 0, 1.48); */
+  /* transform 1s cubic-bezier(0, 0.75, 0.65, 2.05), */
+
+  /* transition:  all 1s cubic-bezier(0, 0.7, 0, 1.48); */
+}
+.parent:hover .child {
+  /* float: right; */
+  transform: translatex(100%);
+  /* transform: translateY(100%); */
+  /* transform: translate(100%, 100%); */
+  /* transform: scale(0.8, 1.2); */
+  background-color: #f17ae9;
+}

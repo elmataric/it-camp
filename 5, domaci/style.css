@@ -112,6 +112,7 @@ h1 {
   top: 0px;
   margin: 0px;
   padding: 0px;
+  width: 100%;
 }
 
 .ppar {
@@ -128,6 +129,9 @@ h1 {
   font-family: "Lora", serif;
   font-family: "Poppins", sans-serif;
   font-family: "Shadows Into Light", cursive;
+  /* margin: 100px; */
+  /* padding: 30px 30px; */
+  text-align: justify;
 }
 .child11 {
   height: 30px;
@@ -145,6 +149,7 @@ h1 {
   line-height: 30px;
   font-family: "Poppins", sans-serif;
   font-family: "Shadows Into Light";
+  cursor: pointer;
 }
 .child22 {
   height: 30px;
@@ -163,6 +168,7 @@ h1 {
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-family: "Shadows Into Light";
+  cursor: pointer;
 }
 .child33 {
   height: 30px;
@@ -181,6 +187,7 @@ h1 {
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-family: "Shadows Into Light";
+  cursor: pointer;
 }
 .child44 {
   height: 30px;
@@ -199,6 +206,7 @@ h1 {
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-family: "Shadows Into Light";
+  cursor: pointer;
 }
 .child55 {
   height: 20px;
@@ -216,6 +224,7 @@ h1 {
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-family: "Shadows Into Light";
+  cursor: pointer;
 }
 .icon {
   font-size: 25px;

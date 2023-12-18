@@ -1,0 +1,453 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Poppins:wght@300;400;500;600;800&family=Shadows+Into+Light&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.header1 {
+  height: 43px;
+  border: solid 0.5px lightgray;
+  box-shadow: 0.2px 0.2px 1px;
+  position: sticky;
+  background-color: white;
+  top: 0px;
+  z-index: 15;
+}
+.header2 {
+  height: 35px;
+  border: solid 0.5px lightgray;
+  box-shadow: 0.2px 0.2px 1px;
+  line-height: 24px;
+  position: sticky;
+  background-color: white;
+  top: 43px;
+  z-index: 15;
+  justify-content: space-between;
+}
+.udemyslika {
+  width: 110px;
+  height: 40px;
+  float: left;
+  margin-top: 0px;
+  margin-left: 0.5px;
+}
+.minimini {
+  width: 10px;
+  height: 0.5px;
+  float: left;
+  margin-left: 0.5px;
+  margin-top: 11px;
+  color: gray;
+}
+#search {
+  width: 530px;
+  height: 30px;
+  border-radius: 50px;
+
+  margin-top: 4px;
+  margin-bottom: 3px;
+  border: solid 0.2px lightgray;
+  box-shadow: 0.2px 0.2px 1px;
+  padding-left: 10px;
+  margin-left: 70px;
+}
+.ub {
+  height: 10px;
+  width: 100px;
+  border: none;
+  position: absolute;
+  right: 190px;
+  top: 15px;
+  color: gray;
+  font-size: 13px;
+}
+.tu {
+  height: 10px;
+  width: 110px;
+  border: none;
+  position: absolute;
+  right: 280px;
+  top: 15px;
+  font-size: 13px;
+  color: gray;
+}
+.ml {
+  height: 10px;
+  width: 90px;
+  border: none;
+  position: absolute;
+  top: 15px;
+  right: 385px;
+  color: gray;
+  font-size: 13px;
+}
+.tajparagraf {
+  font-size: 13px;
+}
+.parent {
+  width: 900px;
+  height: 100px;
+  margin: auto;
+  position: relative;
+  box-shadow: 3px 3px 12px rgba(84, 84, 84, 0.5);
+}
+.child1 {
+  width: 292px;
+  height: 100px;
+  background-color: white;
+
+  position: absolute;
+
+  left: 0px;
+  clear: both;
+  border: solid 0.5px lightgray;
+  z-index: 5;
+  box-shadow: 3px 3px 12px rgba(84, 84, 84, 0.5);
+}
+.satic {
+  width: 70px;
+  height: 70px;
+  margin-top: 0px;
+  margin-left: 0px;
+  float: left;
+}
+.h1 {
+  position: absolute;
+  top: 5px;
+  left: 80px;
+  bottom: 95px;
+  font-size: 15px;
+  width: 150px;
+  clear: both;
+}
+.p1 {
+  position: absolute;
+  top: 30px;
+
+  left: 80px;
+  text-align: justify;
+  padding-right: 10px;
+}
+.ispodp {
+  position: absolute;
+  top: 70px;
+
+  width: 100px;
+  left: 80px;
+  bottom: 10px;
+  text-decoration: none;
+}
+.child2 {
+  width: 292px;
+  height: 100px;
+  background-color: white;
+  position: absolute;
+  left: 300px;
+  top: 0px;
+  margin-top: 0px;
+  border: solid 0.5px lightgray;
+  padding: 10px;
+  z-index: 5;
+  box-shadow: 3px 3px 12px rgba(84, 84, 84, 0.5);
+}
+.knjige {
+  height: 70px;
+  width: 70px;
+}
+.h5 {
+  position: absolute;
+  top: 6px;
+  left: 90px;
+  color: gray;
+}
+.object {
+  position: absolute;
+  top: 40px;
+  left: 90px;
+  font-size: 13px;
+  color: black;
+  text-decoration: none;
+}
+.cool {
+  position: absolute;
+  top: 40px;
+  left: 90px;
+  font-size: 13px;
+  color: black;
+  text-decoration: none;
+}
+.h4 {
+  position: absolute;
+  nav-left: 90px;
+  top: 85px;
+  font-size: 10px;
+}
+.h6 {
+  position: absolute;
+  left: 90px;
+  top: 10px;
+  font-size: 13px;
+  color: gray;
+}
+.elma {
+  margin-left: 160px;
+}
+.child3 {
+  width: 292px;
+  height: 100px;
+  background-color: white;
+  border: solid 0.5px lightgray;
+  position: absolute;
+  left: 600px;
+  top: 0px;
+  z-index: 5;
+  padding: 10px;
+  box-shadow: 3px 3px 12px rgba(84, 84, 84, 0.5);
+}
+
+.news {
+  height: 70px;
+  width: 70px;
+}
+.main {
+  width: 900px;
+  height: 300px;
+  background-image: url(https://www.321study.com/wp-content/uploads/2021/02/udemy-background.jpg);
+  background-repeat: no-repeat;
+  margin: 100px auto;
+  box-shadow: 3px 3px 12px rgba(84, 84, 84, 0.5);
+}
+
+.mini {
+  width: 270px;
+  height: 110px;
+  background-color: white;
+  padding: 15px;
+  float: left;
+  margin: 40px 600px 150px 40px;
+  box-shadow: 3px 3px 12px rgba(84, 84, 84, 0.5);
+}
+.link {
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  margin: 5px;
+  color: rgb(125, 120, 120);
+  font-size: 13px;
+  /* text-align: center; */
+}
+.klasa1 {
+  position: absolute;
+  right: 950px;
+}
+.klasa2 {
+  position: absolute;
+  right: 890px;
+}
+.klasa3 {
+  position: absolute;
+  right: 770px;
+}
+.klasa4 {
+  position: absolute;
+  right: 695px;
+}
+.klasa5 {
+  position: absolute;
+  right: 585px;
+}
+.klasa6 {
+  position: absolute;
+  right: 456px;
+}
+.klasa7 {
+  position: absolute;
+  right: 407px;
+}
+.klasa8 {
+  position: absolute;
+  right: 340px;
+}
+.klasa9 {
+  position: absolute;
+  right: 250px;
+}
+.klasa10 {
+  position: absolute;
+  right: 205px;
+}
+.kont {
+  font-family: "Lora", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Shadows Into Light", cursive;
+  text-align: justify;
+  padding: 100px;
+}
+.main1 {
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(255, 255, 255);
+  position: sticky;
+}
+.first-row {
+  height: 50%;
+  /* background-color: rgb(251, 255, 27); */
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.ball-one {
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  background-color: black;
+  transition: 2s ease-in-out;
+}
+.second-row {
+  height: 50%;
+  /* background-color: rgba(149, 240, 106, 0.486); */
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.ball-two {
+  background-color: black;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  transition: 2s ease-in-out;
+}
+
+.main1:hover .ball-one {
+  transform: translateX(60em);
+}
+
+.main1:hover .ball-two {
+  transform: translateX(-60em);
+}
+@media (max-width: 415px) {
+  .header1 {
+    height: 100px;
+    top: 0px;
+    border: solid 0.1px lightgray;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    position: sticky;
+  }
+  .header2 {
+    height: 40px;
+    top: 100px;
+    /* line-height: 35px; */
+    border: solid 0.1px lightgray;
+    width: 414px;
+    justify-content: space-between;
+  }
+  .udemyslika {
+    width: 130px;
+    height: 90px;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .minimini {
+    bottom: 0px;
+  }
+  #search {
+    width: 250px;
+    height: 50px;
+    margin-top: 0px;
+    border: solid 0.1px lightgray;
+    margin-left: -100px;
+    /* padding-left: 5%; */
+    align-items: center;
+    /* padding: 0px; */
+  }
+  .ub {
+    top: 80px;
+    left: 170px;
+    justify-content: space-around;
+  }
+  .tu {
+    top: 80px;
+    left: 30px;
+    justify-content: space-around;
+  }
+  .ml {
+    top: 80px;
+    right: 20px;
+    justify-content: space-around;
+  }
+  .klsa10 {
+    margin-right: 0px;
+  }
+  .klasa1 {
+    margin-right: 0px;
+  }
+  .main {
+    width: 400px;
+    height: 300px;
+    background-image: url(https://import.cdn.thinkific.com/131667/6Q3sgrVnTy2spCajArXk_BW%20Udemy.jpg);
+  }
+  .mini {
+    width: 200px;
+    height: 150px;
+    margin-left: 15px;
+  }
+  .tajparagraf {
+    /* font-size: 10px; */
+    padding: 15px 15px 15px 5px;
+    font-size: 15px;
+  }
+  .h2kao {
+    font-size: 15px;
+  }
+  .parent {
+    width: 300px;
+    height: 420px;
+    position: relative;
+    border: none;
+    margin-left: 7px;
+  }
+  .child1 {
+    width: 300px;
+    height: 120px;
+    left: 7px;
+    position: absolute;
+    /* padding: 20px; */
+  }
+  .child2 {
+    width: 300px;
+    height: 120px;
+    top: 140px;
+    position: absolute;
+    left: 7px;
+    /* padding: 20px; */
+  }
+  .child3 {
+    width: 300px;
+    height: 120px;
+    top: 280px;
+    position: absolute;
+    left: 7px;
+    /* padding: 20px; */
+  }
+  .elma {
+    margin-left: 7px;
+    font-size: 40px;
+  }
+  .kont {
+    padding: 7px;
+  }
+  .main1:hover .ball-one {
+    transform: translateX(350px);
+  }
+
+  .main1:hover .ball-two {
+    transform: translateX(-350px);
+  }
+  .h5 {
+    padding-right: 10px;
+  }
+}

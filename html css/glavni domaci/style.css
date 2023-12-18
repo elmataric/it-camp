@@ -1,0 +1,484 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  width: 1150px;
+}
+.slika {
+  width: 1215px;
+  height: 720px;
+  background-image: url(https://i.ytimg.com/vi/qwr_BIa1nrM/maxresdefault.jpg);
+  background-repeat: no-repeat;
+  /* position: absolute; */
+}
+.header {
+  width: 1215px;
+  background-color: rgba(240, 248, 255, 0.1);
+  height: 100px;
+  color: rgb(145, 29, 29);
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 100px;
+  grid-template-areas: "prvideo drugideo trecideo";
+  /* justify-content: space-between;
+  align-items: center; */
+  grid-gap: 7px;
+  position: sticky;
+  top: 0px;
+  z-index: 20;
+}
+.malaslika {
+  width: 300px;
+  height: 100px;
+  color: white;
+  font-size: 13px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 10px;
+}
+.sredina {
+  width: 500px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  justify-content: space-around;
+  margin-left: 100px;
+}
+.kraj {
+  width: 250px;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* grid-row-gap: 10px;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-areas: "facebook instagram twitter youtube"; */
+}
+
+.fa-facebook {
+  grid-area: facebook;
+}
+
+.fa-instagram {
+  grid-area: instagram;
+}
+.fa-twitter {
+  grid-area: twitter;
+}
+.fa-youtube {
+  grid-area: youtube;
+}
+.velikikontejner {
+  width: 1215px;
+  height: 440px;
+  /* border: solid; */
+  /* background-color: white; */
+  display: grid;
+  grid-template-columns: 405px 405px 405px;
+  grid-template-rows: 440px;
+  grid-template-areas: "prvi drugi treci";
+  /* margin-top: 70px; */
+  grid-gap: 10px;
+  z-index: 5;
+}
+.manji1 {
+  width: 405px;
+  height: 440px;
+  grid-area: prvi;
+  /* border: solid black 1px; */
+  margin-top: 100px;
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  padding-right: 10px;
+  /* padding-left: 10px; */
+}
+.prvinaslov {
+  font-size: 40px;
+}
+.manji2 {
+  width: 405px;
+  height: 440px;
+  margin-top: 100px;
+  grid-area: drugi;
+  /* background-color: blue; */
+  /* border: solid black 1px; */
+  background-image: url(https://www.jumbo.rs/wp-content/uploads/2020/09/maldivi1.jpg);
+  background-repeat: no-repeat;
+}
+
+.manji3 {
+  width: 405px;
+  height: 440px;
+  grid-area: treci;
+  /* background-color: blueviolet; */
+  /* border: solid black 1px; */
+  margin-top: 100px;
+  /* padding: 30px; */
+  padding-top: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+}
+.drugivelikikontejner {
+  background-color: white;
+  width: 1215px;
+  height: 1000px;
+  display: grid;
+  grid-template-columns: 405px 405px 405px;
+  grid-template-rows: 500px 500px;
+  grid-template-areas: "prva druga treca" "cetvrta peta sesta";
+  margin-top: 70px;
+  z-index: 5;
+}
+.prvaslika1 {
+  grid-area: prva;
+  height: 500px;
+  width: 405px;
+}
+.drugaslika2 {
+  grid-area: druga;
+  height: 500px;
+  width: 405px;
+}
+.trecaslika3 {
+  grid-area: treca;
+  height: 500px;
+  width: 405px;
+}
+.cetvrtaslika4 {
+  grid-area: cetvrta;
+  height: 500px;
+  width: 405px;
+}
+.petaslika5 {
+  grid-area: peta;
+  height: 500px;
+  width: 405px;
+}
+.sestaslika6 {
+  grid-area: sesta;
+  height: 500px;
+  width: 405px;
+}
+.home {
+  color: white;
+  text-decoration: none;
+}
+.portfolios {
+  color: white;
+  text-decoration: none;
+}
+.about {
+  color: white;
+  text-decoration: none;
+}
+.contact {
+  color: white;
+  text-decoration: none;
+}
+.services {
+  color: white;
+  text-decoration: none;
+}
+.blog {
+  color: white;
+  text-decoration: none;
+}
+.fa-facebook:hover {
+  transform: scale(1.5);
+}
+.fa-instagram:hover {
+  transform: scale(1.5);
+}
+.fa-twitter:hover {
+  transform: scale(1.5);
+}
+.fa-youtube:hover {
+  transform: scale(1.5);
+}
+#scrollToTopButton {
+  /* position: fixed; */
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: white;
+  /* color: #fff; */
+  border: solid black 0.5px;
+  cursor: pointer;
+  height: 50px;
+  width: 150px;
+  /* text-align: center; */
+}
+.trecivelikikontejner {
+  width: 1215px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 405px 405px 405px;
+  grid-template-rows: 250px 250px;
+  grid-gap: 15px;
+  z-index: 5;
+}
+.manjitreceg1 {
+  width: 405px;
+  height: 500px;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+.manjitreceg2 {
+  width: 405px;
+  height: 500px;
+  padding-right: 10px;
+}
+.manjitreceg3 {
+  width: 405px;
+  height: 500px;
+  padding-right: 10px;
+}
+.slikaprvog11 {
+  width: 350px;
+  height: 200px;
+}
+.slikadrugog22 {
+  width: 375px;
+  height: 200px;
+}
+.slikatreceg33 {
+  width: 350px;
+  height: 200px;
+}
+.naslov2 {
+  margin-left: 30px;
+  font-size: 50px;
+}
+.prvipp {
+  margin-right: 10px;
+}
+.drugipp {
+  margin-right: 10px;
+}
+.trecipp {
+  margin-right: 10px;
+}
+.cetvrtivelikikontejner {
+  width: 1215px;
+  height: 550px;
+  background-color: rgb(37, 197, 197);
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding-left: 200px;
+  padding-right: 200px;
+  z-index: 5;
+}
+.slicica {
+  margin: auto;
+  width: 70px;
+  height: 70px;
+}
+.naslovv {
+  padding-top: 100px;
+}
+.petivelikikontejner {
+  width: 1215px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: 405px 405px 405px;
+  grid-template-rows: 600px;
+  grid-gap: 5px;
+  padding: 20px;
+  z-index: 5;
+}
+.manjipetog1 {
+  width: 370px;
+  height: 500px;
+  padding-left: 30px;
+  padding-right: 10px;
+  text-align: center;
+  border: solid black 0.1px;
+  padding-top: 60px;
+}
+.manjipetog2 {
+  width: 370px;
+  height: 500px;
+  padding-top: 60px;
+  padding-right: 10px;
+  text-align: center;
+  border: solid black 0.1px;
+}
+.manjipetog3 {
+  width: 370px;
+  height: 500px;
+  padding-top: 60px;
+  padding-right: 10px;
+  text-align: center;
+  border: solid black 0.1px;
+}
+.kartica1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 135px;
+  height: 30px;
+  margin-top: 20px;
+  margin: auto;
+  background-color: rgb(37, 197, 197);
+  color: white;
+}
+.kartica2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  width: 135px;
+  height: 30px;
+  margin-top: 20px;
+  margin: auto;
+  background-color: rgb(37, 197, 197);
+  color: white;
+}
+.kartica3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  width: 135px;
+  height: 30px;
+  margin-top: 20px;
+  margin: auto;
+  background-color: rgb(37, 197, 197);
+  color: white;
+}
+.h1naslov {
+  margin-top: 70px;
+  margin-left: 30px;
+}
+.links {
+  text-decoration: none;
+}
+.links:hover {
+  text-decoration: underline;
+  color: white;
+}
+.pretposlednji {
+  width: 1215px;
+  height: 243px;
+  display: grid;
+  grid-template-columns: 243px 243px 243px 243px 243px;
+  grid-template-rows: 243px;
+  grid-template-areas: "pre1 pre2 pre3 pre4 pre5";
+}
+.nova1 {
+  grid-area: pre1;
+  width: 243px;
+  height: 243px;
+}
+.nova2 {
+  grid-area: pre2;
+  width: 243px;
+  height: 243px;
+}
+.nova3 {
+  grid-area: pre3;
+  width: 243px;
+  height: 243px;
+}
+.nova4 {
+  grid-area: pre4;
+  width: 243px;
+  height: 243px;
+}
+.nova5 {
+  grid-area: pre5;
+  width: 243px;
+  height: 243px;
+}
+.poslednji {
+  width: 1215px;
+  height: 400px;
+  background-color: rgb(27, 87, 87);
+  display: grid;
+  grid-template-rows: 400px;
+  grid-template-columns: 303.75px 303.75px 303.75px 303.75px;
+  grid-template-areas: "prvi drugi treci cetvrti";
+  color: white;
+}
+.lala {
+  grid-area: prvi;
+  width: 303.75px;
+  height: 400px;
+  padding: 15px;
+  margin-top: 30px;
+  text-decoration: none;
+  color: white;
+}
+.anana {
+  grid-area: drugi;
+  width: 303.75px;
+  height: 400px;
+  padding: 15px;
+  margin-top: 30px;
+  text-decoration: none;
+  color: white;
+}
+.nmp {
+  grid-area: treci;
+  height: 400px;
+  width: 303.75px;
+  padding: 15px;
+  margin-top: 30px;
+  text-decoration: none;
+  color: white;
+}
+.ccc {
+  grid-area: cetvrti;
+  width: 303.75px;
+  height: 400px;
+  padding: 15px;
+  margin-top: 30px;
+  text-decoration: none;
+  color: white;
+}
+#email {
+  align-items: center;
+  width: 250px;
+  height: 30px;
+  background-color: rgb(17, 97, 101);
+  border: solid black 0.1px;
+  padding-left: 20px;
+}
+.linkovisvi {
+  color: white;
+  text-decoration: none;
+}
+.linkovisvi:hover {
+  text-decoration: underline;
+}
+.opetposlednji {
+  display: flex;
+  width: 1215px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(27, 87, 87);
+  color: white;
+}
+.duugme {
+  width: 250px;
+  height: 30px;
+  color: lightgrey;
+  border: solid black 0.1px;
+  background-color: rgb(27, 87, 87);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

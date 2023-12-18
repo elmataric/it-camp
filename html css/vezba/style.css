@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Playpen+Sans&family=Poppins:wght@300;400;500;600;800&family=Shadows+Into+Light&display=swap");
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.prvi {
+  padding: 10px;
+  width: 700px;
+  height: 100px;
+  background-color: pink;
+}
+.drugi {
+  padding: 10px;
+  width: 700px;
+  height: 100px;
+  background-color: rgb(253, 173, 186);
+}
+.treci {
+  padding: 10px;
+  width: 700px;
+  height: 100px;
+  background-color: rgb(249, 149, 166);
+}
+.cetvrti {
+  padding: 10px;
+  width: 700px;
+  height: 100px;
+  background-color: rgb(253, 138, 157);
+}
+.peti {
+  padding: 10px;
+  width: 700px;
+  height: 100px;
+  background-color: rgb(240, 83, 109);
+}
+.sesti {
+  padding: 10px;
+  width: 700px;
+  height: 100px;
+  background-color: rgb(240, 68, 97);
+}
+.sedmi {
+  padding: 10px;
+  width: 700px;
+  height: 100px;
+  background-color: rgb(231, 53, 83);
+}
+.osmi {
+  padding: 10px;
+  width: 700px;
+  height: 100px;
+  background-color: rgb(175, 26, 51);
+}
+.deveti {
+  padding: 10px;
+  width: 700px;
+  height: 100px;
+  background-color: rgb(231, 53, 83);
+}
+.deseti {
+  padding: 10px;
+  width: 700px;
+  height: 100px;
+  background-color: rgb(240, 68, 97);
+}
+.jedanaesti {
+  padding: 10px;
+  width: 700px;
+  height: 100px;
+  background-color: rgb(240, 83, 109);
+}
+.dvanaesti {
+  padding: 10px;
+  width: 700px;
+  height: 100px;
+  background-color: rgb(253, 138, 157);
+}
+.trinaesti {
+  padding: 10px;
+  width: 700px;
+  height: 100px;
+  background-color: rgb(249, 149, 166);
+}
+.cetrnaesti {
+  padding: 10px;
+  width: 700px;
+  height: 100px;
+  background-color: rgb(253, 173, 186);
+}
+.petnaesti {
+  padding: 10px;
+  width: 700px;
+  height: 100px;
+  background-color: pink;
+}
+.div {
+  font-family: "Lora", serif;
+  font-family: "Playpen Sans", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Shadows Into Light", cursive;
+  margin: 20px;
+}
+.slika {
+  width: 400px;
+  height: 150px;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+.cont {
+  width: 1000px;
+  height: 600px;
+  background: url(https://cf.bstatic.com/xdata/images/hotel/max1024x768/465571045.jpg?k=02196325840def7cafaa7e4433e5a101dd117244001194c539ff9281d3b7b0a2&o=&hp=1)
+      center/cover,
+    no-repeat, linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+}

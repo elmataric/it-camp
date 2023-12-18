@@ -1,0 +1,483 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.header {
+  width: 100%;
+  height: 100px;
+  /* position: sticky; */
+  top: 0px;
+  display: grid;
+  grid-template-columns: 300px 615px 300px;
+  grid-template-rows: 100px;
+  grid-template-areas: "prva druga treca";
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+}
+.child1 {
+  width: 300px;
+  height: 100px;
+  grid-area: prva;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 70px;
+  font-size: 25px;
+}
+.child2 {
+  width: 615px;
+  height: 100px;
+  grid-area: druga;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.child3 {
+  width: 300px;
+  height: 100px;
+  grid-area: treca;
+  text-decoration: none;
+  color: white;
+}
+.get {
+  width: 150px;
+  height: 50px;
+  border: solid darkgoldenrod 0.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  margin-left: 80px;
+  color: white;
+  text-decoration: none;
+}
+.links {
+  color: white;
+  text-decoration: none;
+}
+.links:hover {
+  color: darkgoldenrod;
+  text-decoration: underline darkgoldenrod;
+}
+.child11 {
+  width: 200px;
+  height: 200px;
+  display: grid;
+  grid-area: 200px;
+  grid-template-rows: 80px 120px;
+  grid-template-areas: "gornji1 donji1";
+}
+.child22 {
+  width: 200px;
+  height: 200px;
+  display: grid;
+  grid-area: 200px;
+  grid-template-rows: 80px 120px;
+  grid-template-areas: "gornji2 donji2";
+}
+.child33 {
+  width: 200px;
+  height: 200px;
+  display: grid;
+  grid-area: 200px;
+  grid-template-rows: 80px 120px;
+  grid-template-areas: "gornji3 donji3";
+}
+.child44 {
+  width: 200px;
+  height: 200px;
+  display: grid;
+  grid-area: 200px;
+  grid-template-rows: 80px 120px;
+  grid-template-areas: "gornji4 donji4";
+}
+.child55 {
+  width: 200px;
+  height: 200px;
+  display: grid;
+  grid-area: 200px;
+  grid-template-rows: 80px 120px;
+  grid-template-areas: "gornji5 donji5";
+}
+.prvivelikikont {
+  width: 1215px;
+  height: 700px;
+  display: grid;
+  grid-template-columns: 1215px;
+  grid-template-rows: 350px 350px;
+  grid-template-areas: "prvired drugired";
+  background-repeat: no-repeat;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/001/861/884/large_2x/low-anglegraphy-of-high-rise-buildings-free-photo.jpeg);
+}
+.gore {
+  /* background-color: darkgreen; */
+  width: 1215px;
+  height: 350px;
+  margin: auto;
+  padding-top: 100px;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  grid-area: prvired;
+  text-align: center;
+}
+.dole {
+  margin-left: -1215px;
+  margin-top: 450px;
+  width: 1215px;
+  height: 350px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 70px;
+  padding-right: 70px;
+  grid-template-rows: 350px;
+  grid-template-columns: 87.5px 200px 10px 200px 10px 200px 10px 200px 10px 200px 87.5px;
+  grid-template-areas: "ne1 da1 ne2 da2 ne3 da3 ne4 da4 ne5 da5 ne6";
+  /* background-color: darkblue; */
+  grid-area: drugired;
+  z-index: 5;
+}
+.child11 {
+  grid-area: da1;
+  padding: auto;
+}
+.child22 {
+  grid-area: da2;
+}
+.child33 {
+  grid-area: da3;
+  /* margin-top: 50px; */
+}
+.child44 {
+  grid-area: da4;
+}
+.child55 {
+  grid-area: da5;
+}
+.drugivelikikont {
+  margin-top: 800px;
+  width: 1215px;
+  height: 800px;
+  display: grid;
+  grid-template-columns: 610px 605px;
+  grid-template-rows: 800px;
+  grid-template-areas: "zaparagraf zasliku";
+  z-index: 10;
+  padding-right: 20px;
+}
+.manjidrugog {
+  height: 800px;
+  width: 610px;
+  grid-area: zaparagraf;
+  padding: 20px;
+}
+.vecidrugog {
+  height: 800px;
+  width: 605px;
+  grid-area: zasliku;
+  align-items: center;
+  padding: 20px;
+}
+.slika2 {
+  width: 565px;
+  height: 565px;
+  margin-right: 20px;
+}
+.par1 {
+  display: grid;
+  grid-template-columns: 50px 540px;
+  grid-template-rows: 30px;
+  grid-template-areas: "ikonicaprva parprvi";
+  width: 590px;
+  height: 30px;
+}
+.par2 {
+  display: grid;
+  grid-template-columns: 50px 540px;
+  grid-template-rows: 30px;
+  grid-template-areas: "ikonicadruga pardrugi";
+  width: 590px;
+  height: 30px;
+}
+.par3 {
+  display: grid;
+  grid-template-columns: 50px 540px;
+  grid-template-rows: 50px;
+  grid-template-areas: "ikonicatreca partreci";
+  width: 590px;
+  height: 50px;
+  padding-right: 20px;
+}
+.prrva {
+  grid-area: ikonicaprva;
+}
+.drruga {
+  grid-area: ikonicadruga;
+}
+.trreca {
+  grid-area: ikonicatreca;
+}
+.parprvii {
+  grid-area: parprvi;
+}
+.pardrugii {
+  grid-area: pardrugi;
+}
+.partrecii {
+  grid-area: partreci;
+}
+.trecisrednji {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+.prvisrednjeg {
+  width: 150px;
+  height: 50px;
+}
+.drugisrednjeg {
+  width: 150px;
+  height: 50px;
+}
+.trecisrednjeg {
+  width: 150px;
+  height: 50px;
+}
+.cetvrtisrednjeg {
+  width: 150px;
+  height: 50px;
+}
+.petisrednjeg {
+  width: 150px;
+  height: 50px;
+}
+.prvasrednjeg {
+  width: 100px;
+  height: 30px;
+}
+.drugasrednjeg {
+  width: 100px;
+  height: 30px;
+}
+.trecasrednjeg {
+  width: 100px;
+  height: 30px;
+}
+.cetvrtasrednjeg {
+  width: 100px;
+  height: 30px;
+}
+.petasrednjeg {
+  width: 100px;
+  height: 30px;
+}
+.cetvrtiveliki {
+  width: 100%;
+  height: 800px;
+  display: grid;
+  grid-template-columns: 610px 605px;
+  grid-template-rows: 800px;
+  grid-template-areas: "slicica paragraaaf";
+  padding: 20px;
+}
+.manji4 {
+  width: 610px;
+  height: 800px;
+  grid-area: slicica;
+}
+.ruke {
+  width: 500px;
+  height: 500px;
+}
+.veci4 {
+  width: 605px;
+  height: 800px;
+  grid-area: paragraaaf;
+}
+.skroz1 {
+  width: 610px;
+  height: 150px;
+  display: grid;
+  grid-template-columns: 70px 400px;
+  grid-template-rows: 150px;
+  grid-template-areas: "viljuska patka";
+}
+.skroz2 {
+  width: 610px;
+  height: 150px;
+  display: grid;
+  grid-template-columns: 70px 400px;
+  grid-template-rows: 150px;
+  grid-template-areas: "kasika ovcica";
+}
+.skroz3 {
+  width: 610px;
+  height: 150px;
+  display: grid;
+  grid-template-columns: 70px 400px;
+  grid-template-rows: 150px;
+  grid-template-areas: "noz zmaj";
+}
+.skroz4 {
+  width: 610px;
+  height: 150px;
+  display: grid;
+  grid-template-columns: 70px 400px;
+  grid-template-rows: 150px;
+  grid-template-areas: "cekic struja";
+}
+.prvpar {
+  grid-area: patka;
+  margin-top: 50px;
+}
+.drupar {
+  grid-area: ovcica;
+  margin-top: 50px;
+}
+.trepar {
+  grid-area: zmaj;
+  margin-top: 50px;
+}
+.cetpar {
+  grid-area: struja;
+  margin-top: 50px;
+}
+.naslovcic1 {
+  grid-area: patka;
+}
+.naslovcic2 {
+  grid-area: ovcica;
+}
+.naslovcic3 {
+  grid-area: zmaj;
+}
+.naslovcic4 {
+  grid-area: struja;
+}
+.lista {
+  grid-area: viljuska;
+}
+.box {
+  grid-area: kasika;
+}
+.images {
+  grid-area: noz;
+}
+.shield {
+  grid-area: cekic;
+}
+.footer {
+  width: 100%;
+  height: 600px;
+  display: grid;
+  grid-template-columns: 400px 200px 200px 415px;
+  grid-template-rows: 600px;
+  grid-template-areas: "prvaarea drugaarea trecaarea cetvrtaarea";
+  background-color: black;
+}
+.prvifoo {
+  width: 400px;
+  height: 600px;
+  grid-area: prvaarea;
+  padding-left: 40px;
+  padding-top: 50px;
+  color: white;
+}
+.drugifoo {
+  width: 200px;
+  height: 600px;
+  grid-area: drugaarea;
+  color: white;
+  padding-top: 50px;
+  padding-right: 20px;
+}
+.trecifoo {
+  width: 200px;
+  height: 600px;
+  grid-area: trecaarea;
+  color: white;
+  padding-top: 50px;
+}
+.cetvrtifoo {
+  width: 415px;
+  height: 350px;
+  grid-area: cetvrtaarea;
+  color: white;
+  padding-top: 50px;
+  padding-right: 50px;
+}
+.gp {
+  color: darkgoldenrod;
+}
+.vecimini {
+  width: 150px;
+  height: 40px;
+  display: grid;
+  grid-template-columns: 20px 12.5px 20px 12.5px 20px 12.5px 20px 12.5px 20px 12.5px;
+  grid-template-rows: 40px;
+  grid-template-areas: " tvitter neb2 facebook neb3 instagram neb4 yt neb5 in ";
+}
+.mini1 {
+  margin-top: 20px;
+  height: 20px;
+  width: 20px;
+  justify-content: center;
+  align-items: center;
+  grid-area: tvitter;
+}
+.mini2 {
+  margin-top: 20px;
+  height: 20px;
+  width: 20px;
+  justify-content: center;
+  align-items: center;
+  grid-area: facebook;
+}
+.mini3 {
+  margin-top: 20px;
+  height: 20px;
+  width: 20px;
+  justify-content: center;
+  align-items: center;
+  grid-area: instagram;
+}
+.mini4 {
+  margin-top: 20px;
+  height: 20px;
+  width: 20px;
+  justify-content: center;
+  align-items: center;
+  grid-area: yt;
+}
+.mini5 {
+  margin-top: 20px;
+  height: 20px;
+  width: 20px;
+  justify-content: center;
+  align-items: center;
+  grid-area: in;
+}
+.facebook:hover {
+  color: darkgoldenrod;
+}
+.instagram:hover {
+  color: darkgoldenrod;
+}
+.youtube:hover {
+  color: darkgoldenrod;
+}
+.twitter:hover {
+  color: darkgoldenrod;
+}
+.likedin:hover {
+  background-color: darkgoldenrod;
+  transition: transform;
+}

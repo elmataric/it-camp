@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.parent {
+  margin: auto;
+  background-color: rgb(162, 121, 121);
+  width: 80%;
+  /* height: 500px; */
+  display: grid;
+  /* grid-template-columns: 200px 250px 200px 200px; */
+  /* grid-template-columns: 1fr 2fr 2fr; */
+  grid-template-columns: repeat(3, 150px);
+  /* repeat obavezno zapamtiti */
+  /* grid-template-rows: 100px 200px 150px; */
+  /* grid-auto-rows: 200px; */
+  grid-auto-rows: minmax(200px, auto);
+  /* grid-template-rows: 200px 100px; */
+
+  /* grid-column-gap: 10px; RAZMAK IZMEDJU REDOVA */
+  /* grid-column-gap: 20px;
+    grid-row-gap: 20px; */
+  grid-gap: 15px;
+  grid-template-areas:
+    "header header21 header3"
+    "section section2 none1"
+    "element element2 none2";
+  /* "element element none"; DA BI SE SPOJILA KOLONA  */
+  padding: 10px;
+  justify-content: center;
+  align-content: center;
+}
+.box1 {
+  background-color: #7fffd4;
+  /* text-overflow: auto; */
+  grid-area: header;
+}
+.box2 {
+  background-color: blueviolet;
+  grid-area: header21;
+  /* grid-column-start: 3;
+  grid-column-end: 4; */
+  /* grid-row-start: 1;
+  grid-row-end: 3; */
+}
+.box3 {
+  background-color: rgb(136, 241, 138);
+  /* opacity: 0.3; */
+  color: rgb(0, 0, 0);
+  grid-area: header3;
+}
+
+.box4 {
+  background-color: rgb(57, 216, 216);
+  grid-area: section;
+}
+
+.box5 {
+  background-color: chocolate;
+  grid-area: section2;
+}
+
+.box6 {
+  background-color: blue;
+  grid-area: none1;
+}
+
+.box7 {
+  background-color: rgb(182, 160, 202);
+  grid-column: span 2;
+  grid-area: element;
+}

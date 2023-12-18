@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.parent {
+  width: 80%;
+  /* height: 500px; */
+  background-color: rgb(248, 209, 215);
+  margin: auto;
+  /* display: flex;
+  flex-direction: column; */
+  display: grid;
+  /* grid-template-columns: 200px 250px 200px 200px; */
+  /* grid-template-columns: 150px; */
+  /* grid-template-columns: repeat(4, 150px); */
+  grid-template-columns: repeat(3, 150px);
+  /* grid-template-rows: 100px 200px 150px; */
+  /* grid-auto-rows: 200px; */
+  /* grid-auto-columns: 100px; */
+  /* grid-template-rows: 200px 200px 100px; */
+  grid-auto-rows: minmax(200px, auto);
+  /* grid-column-gap: 10px;
+  grid-row-gap: 30px; */
+  grid-gap: 15px;
+  grid-template-areas: "header header header" "header2 header2 none" "element element2 none";
+}
+.box1 {
+  background-color: rgba(252, 123, 144, 0.963);
+  grid-area: header;
+  /* overflow: auto;  */
+}
+.box2 {
+  background-color: rgb(225, 97, 118);
+  grid-area: header2;
+}
+.box3 {
+  background-color: rgb(223, 41, 71);
+  /* opacity: 0.4; */
+  grid-area: none;
+}
+.box4 {
+  background-color: rgb(226, 159, 170);
+  grid-area: element;
+}
+.box5 {
+  background-color: rgb(148, 74, 86);
+  grid-area: element2;
+}
+.box6 {
+  background-color: rgb(149, 63, 77);
+}
+.box7 {
+  background-color: rgb(250, 113, 136);
+}
